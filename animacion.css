@@ -1,0 +1,141 @@
+.heade{
+
+    animation: ocho 2s infinite ;
+    
+    animation-delay: 8s;
+    
+
+}
+
+
+@keyframes ocho{
+    
+    0%{
+        background-image: url(img/Ojo.png);
+    }
+    
+    1%{
+        background-image: url(img/Ojo_1.png);
+    }
+    
+    2%{
+        background-image: url(img/Ojo_2.png);
+    }
+    
+    3%{
+        background-image: url(img/Ojo_3.png);
+    }
+    
+    4%{
+        background-image: url(img/Ojo_4.png);
+    }
+    
+    5%{
+        background-image: url(img/Ojo_5.png);
+    }
+    
+    6%{
+        background-image: url(img/Ojo_6.png);
+    }
+    
+    7%{
+        background-image: url(img/Ojo_7.png);
+    }
+    
+    8%{
+        background-image: url(img/Ojo_8.png);
+    }
+    
+    
+    
+    
+    9%{
+        background-image: url(img/Ojo_7.png);
+    }
+    
+    10%{
+        background-image: url(img/Ojo_6.png);
+    }
+    
+    11%{
+        background-image: url(img/Ojo_5.png);
+    }
+    
+    12%{
+        background-image: url(img/Ojo_4.png);
+    }
+    
+    13%{
+        background-image: url(img/Ojo_3.png);
+    }
+    
+    14%{
+        background-image: url(img/Ojo_2.png);
+    }
+    
+    15%{
+        background-image: url(img/Ojo_1.png);
+    }
+    
+    16%{
+        background-image: url(img/Ojo.png);
+    }
+    
+
+    
+    100%{background-image: url(img/Ojo.png);}
+}
+
+
+
+
+
+
+
+.cua{
+    
+    animation: tres 3s infinite;
+}
+
+@keyframes tres{
+    
+    0%{
+        background-image: url(img/moge_2.png);
+    }
+    
+    30%{
+        background-image: url(img/moge_1.png);
+    }
+    
+    60%{
+        background-image: url(img/moge_2.png);
+    }
+    
+    100%{
+        background-image: url(img/moge_3.png);
+    }
+    
+}
+
+
+
+.foote{
+    
+    animation: dos 3s infinite;
+}
+
+@keyframes dos{
+    
+    0%{
+        margin-top: 30vh;
+    }
+    
+    50%{
+        margin-top: 29vh;
+    }
+    
+    100%{
+        margin-top: 30vh;
+    }
+    
+}
